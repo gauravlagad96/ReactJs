@@ -1,0 +1,53 @@
+
+[
+    {
+        "id": 1,
+        "name": "Gaurav",
+        "course": "Full Stack Java"
+    },
+    {
+        "id": 2,
+        "name": "Aditi",
+        "course": "Data Science"
+    },
+    {
+        "id": 3,
+        "name": "Rohit",
+        "course": "Python Development"
+    },
+    {
+        "id": 4,
+        "name": "Megha",
+        "course": "Web Development"
+    },
+    {
+        "id": 5,
+        "name": "Sandeep",
+        "course": "Android Development"
+    },
+    {
+        "id": 6,
+        "name": "Pooja",
+        "course": "Machine Learning"
+    },
+    {
+        "id": 7,
+        "name": "Karan",
+        "course": "Blockchain Technology"
+    },
+    {
+        "id": 8,
+        "name": "Sneha",
+        "course": "Cloud Computing"
+    },
+    {
+        "id": 9,
+        "name": "Vivek",
+        "course": "Cyber Security"
+    },
+    {
+        "id": 10,
+        "name": "Priya",
+        "course": "Artificial Intelligence"
+    }
+]
