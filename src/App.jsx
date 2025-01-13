@@ -11,7 +11,12 @@ import DestruStudentList from './components/DestructuringProps/DestruStudentList
 import EventHandling from './components/EventHandling/EventHandling'
 import PassEventHandlerProps from './components/EventHandling/PassEventHandlerProps'
 import EventPropagation from './components/EventHandling/EventPropagation'
-import StateEx from './components/states/StateEx'
+import UseState from './components/useState/UseState'
+import A from './components/useContext/A'
+import B from './components/useContext/B'
+import C from './components/useContext/C'
+
+export const UserContext = React.createContext();
 
 const App = () => {
   return (
@@ -39,8 +44,12 @@ const App = () => {
       {/* <PassEventHandlerProps/> */}
 
       {/* <EventPropagation/> */}
-      <StateEx/>
 
+      {/* <UseState/> */}
+      <UserContext.Provider value={"gaurav lagad"}>
+        <B />
+        <A />
+      </UserContext.Provider>
     </>
   )
 }

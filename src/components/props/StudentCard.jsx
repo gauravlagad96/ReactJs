@@ -13,5 +13,6 @@ const StudentCard = (props) => {
 
         </>
     );
+    
 };
 export default StudentCard;
