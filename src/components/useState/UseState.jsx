@@ -6,12 +6,12 @@ const UseState = () => {
     const [count, setCount] = useState(0);
 
     const incrCount = () => {
-        setCount(()=>count+1);
+        setCount(() => count + 1);
     }
+    
     const dcrCount = () => {
-        setCount(()=>count-1);
+        setCount(() => count - 1);
     }
-
 
 
     return (
